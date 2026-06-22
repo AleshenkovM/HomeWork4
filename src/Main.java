@@ -65,13 +65,37 @@ public class Main {
 
         //Задача №6
         System.out.println("Задача №6");
-        int seat = 50;
+        int seat = 102;
+        if (seat < 102) {
+            System.out.println(" В вагоне есть свободные места ");}
+        else {
+            System.out.println("В вагоне нет свободных мест");}
         if (seat>=0 && seat <=59) {
             System.out.println("В вагоне есть свободное сидячее место");}
         if (seat >=60 && seat <=101){{
             System.out.println("В вагоне нет свободных сидячих мест, но есть свободные стоячие места");}}
-        else {
-            System.out.println("В вагоне нет свободных мест!");}
+
+
+        //Задача№7
+        System.out.println("Задача №7");
+        System.out.println("Задача №7");
+        int one = 20;
+        int two = 30;
+        int three = 10;
+        int max;
+
+        if (two > one && two > three) {
+            max = two;
+        } else if (three > one && three > two) {
+            max = three;
+        } else {
+            max = one;
+        }
+
+        System.out.println("Самое большое число: " + max);
+
+
+
 
 
 
