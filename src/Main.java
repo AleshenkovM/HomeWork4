@@ -78,7 +78,6 @@ public class Main {
 
         //Задача№7
         System.out.println("Задача №7");
-        System.out.println("Задача №7");
         int one = 20;
         int two = 30;
         int three = 10;
